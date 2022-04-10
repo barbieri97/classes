@@ -1,0 +1,13 @@
+CREATE TABLE aulas(
+id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+aula TEXT NOT NULL,
+diaSemana INTEGER NOT NULL,
+professor TEXT,
+horario TEXT NOT NULL,
+link TEXT NOT NULL 
+);
+INSERT INTO aulas VALUES(NULL, 'psicopato', 1, 'pedrinho', '19:10', '<link1>' );
+INSERT INTO aulas VALUES(NULL, 'psicdiag', 2, 'claudi', '19:10', '<link2>');
+INSERT INTO aulas VALUES(NULL, 'tcc', 3, 'suza', '19:10', '<link3>');
+INSERT INTO aulas VALUES(NULL, 'estagio', 4, 'paulo', '19:10', '<link4>');
+INSERT INTO aulas VALUES(NULL, 'comportamental', 5, 'marina', '19:10', '<link5>');
